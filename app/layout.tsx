@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
-import {Poppins,Montserrat} from "next/font/google"
 import localFont from "next/font/local";
-// import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import next from "next";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
